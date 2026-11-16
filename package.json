@@ -1,0 +1,14 @@
+{
+  "name": "valcre-photo-edit-poc",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ENG-6529 POC: one image in, Autoenhance result out. No database, no storage.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "start": "node --env-file=.env server.mjs",
+    "enhance": "node --env-file=.env enhance-file.mjs"
+  }
+}
